@@ -47,16 +47,20 @@ is not the hoisting strategy but the shape of running an eager bundle from
 
 ## Versions
 
-| Package / Tool          | Version  |
-|-------------------------|----------|
-| pnpm                    | 10.33.0  |
-| expo (cli)              | 55.0.26  |
-| expo (package)          | ~54.0.33 |
-| react-native            | 0.81.5   |
-| react-native-reanimated | ^4.1.7   |
-| nativewind              | ^4.2.3   |
-| tailwindcss             | ^4.2.4   |
-| uniwind                 | ^1.6.2   |
+Expo SDK 55.
+
+| Package / Tool          | Installed  | Declared in `package.json` |
+|-------------------------|------------|----------------------------|
+| pnpm                    | 10.33.0    | —                          |
+| expo                    | 55.0.17    | ~55.0.17                   |
+| @expo/cli               | 55.0.26    | (transitive)               |
+| react                   | 19.2.0     | 19.2.0                     |
+| react-native            | 0.83.6     | 0.83.6                     |
+| react-native-reanimated | 4.2.1      | ^4.2.1                     |
+| nativewind              | 4.2.3      | ^4.2.3                     |
+| tailwindcss             | 4.2.4      | ^4.2.4                     |
+| uniwind                 | 1.6.2      | ^1.6.2                     |
+| expo-status-bar         | 55.0.5     | ~55.0.5                    |
 
 ## How to reproduce
 
